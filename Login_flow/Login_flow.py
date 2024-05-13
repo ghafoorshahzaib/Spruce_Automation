@@ -46,4 +46,3 @@ class LoginTestCase(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-# class="ant-notification-notice-message"
