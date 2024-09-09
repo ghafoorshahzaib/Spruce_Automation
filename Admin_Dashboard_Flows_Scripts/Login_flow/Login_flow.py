@@ -11,6 +11,7 @@ class LoginTestCase(unittest.TestCase):
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
         self.driver.implicitly_wait(10)
+        print("hello world")
         self.driver.get("https://admin-spruce.appnofy.com/auth/sign-in")
 
     def test_successful_login(self):
