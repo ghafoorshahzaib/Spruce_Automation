@@ -12,6 +12,8 @@ class LoginTestCase(unittest.TestCase):
         self.driver.maximize_window()
         self.driver.implicitly_wait(10)
         self.driver.get("https://admin-spruce.appnofy.com/auth/sign-in")
+        print("hello")
+
 
     def test_successful_login(self):
         email_input = self.driver.find_element(By.ID, "email")
